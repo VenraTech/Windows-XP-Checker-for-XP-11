@@ -11,6 +11,6 @@ int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR cmdParam, int c
 	Sleep(1000 * 5); //5 SECONDS
 	
 	//DETECTOR 2ND PHASE
-    if (!CheckForWindowsXP()) NotWindowsXP();
+        if (!CheckForWindowsXP()) NotWindowsXP();
 	MessageBoxA(NULL, "You are currently using XP.\r\nYou may proceed to exit the program", "WindowsXPChecker.exe - Detection Successful", MB_ICONWARNING|MB_OK);
 }
