@@ -6,7 +6,7 @@ typedef struct IUnknown IUnknown;
 #include <Windows.h>
 
 //Windows XP Checker
-    WINBOOL CheckForWindowsXP() {
+WINBOOL CheckForWindowsXP() {
 	OSVERSIONINFOA osvi;
 	ZeroMemory(&osvi, sizeof(OSVERSIONINFOA));
 	osvi.dwOSVersionInfoSize = sizeof(OSVERSIONINFOA);
