@@ -1,0 +1,1 @@
+UPDATE: Fixed the icon to be a Information icon when it checks correctly
